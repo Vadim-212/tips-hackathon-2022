@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\stylesheets\style.css">
+    <script src="\javascripts\tips-page.js"></script>
+    <title>Tips</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <h1>Wooppay Tips</h1>
+          <h2>Оплата чаевых</h2>
+        </div>
+      </header>
+      <main>
+        <div class="recipient-info">
+          <p>Вы оплачиваете чаевые получателю:</p>
+          <img src="\images\account_picture.svg" alt="" width="150px">
+          <p>Евгения Бодрова</p>
+          <p>Цель: На Mercedes W218 AMG</p>
+        </div>
+        <div id="auth">
+            <div class="payment-block">
+                <label for="donut-value">Введите свой номер телефона, чтобы продолжить</label>
+                <input id="phone-continue-input" type="number">
+            </div>
+            <div class="payment-action">
+                <button id="phone-continue-btn">Продолжить</button>
+            </div>
+        </div>
+        <div id="payment">
+            <div class="payment-block">
+                <label for="donut-value">Сумма доната</label>
+                <input id="payment-amount-input" type="number" name="donut-value" value="">
+                <label for="wish">Пожелание получателю</label>
+                <input type="text" name="wish" value="">
+            </div>
+            <div class="payment-action">
+                <button id="payment-button" type="button" name="button">Перейти к оплате</button>
+            </div>
+        </div>
+        
+      </main>
+    <!-- <div id="auth">
+        <p>Введите свой номер телефона, чтобы продолжить</p>
+        <input id="phone-continue-input" type="number" placeholder="Введите номер...">
+        <button id="phone-continue-btn">Продолжить</button>
+    </div>
+    <div id="payment">
+        <input id="payment-amount-input" type="number" placeholder="Введите сумму...">
+        <button id="payment-button">Оплатить</button>
+    </div> -->
+</body>
+</html>
